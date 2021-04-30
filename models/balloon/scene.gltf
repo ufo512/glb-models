@@ -1,0 +1,304 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8739,
+      "max": [
+        -15.168000221252441,
+        14.5,
+        58.370998382568359
+      ],
+      "min": [
+        -35.167999267578125,
+        -5.5,
+        34
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 104868,
+      "componentType": 5126,
+      "count": 8739,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 30987,
+      "max": [
+        8738
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 209736,
+      "componentType": 5126,
+      "count": 1166,
+      "max": [
+        -23,
+        4.847599983215332,
+        34
+      ],
+      "min": [
+        -27.332000732421875,
+        -0.20000000298023224,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 223728,
+      "componentType": 5126,
+      "count": 1166,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -0.99999994039535522,
+        -1,
+        -0.6780160665512085
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 123948,
+      "componentType": 5125,
+      "count": 6636,
+      "max": [
+        1165
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "beth_hanning (https://sketchfab.com/beth_hanning)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/balloon-2-b6ba1d39d560436289bc6cb39e0c224c",
+      "title": "Balloon-2"
+    },
+    "generator": "Sketchfab-6.84.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 150492,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 237720,
+      "byteOffset": 150492,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 388212,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "group_0_15277357Mat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6714196796662113,
+          0.013878484708652713,
+          0.013878484708652713,
+          1
+        ],
+        "metallicFactor": 0.081025565542825834,
+        "roughnessFactor": 0.19946223933522289
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "group_0_6383466Mat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.80000000000000004,
+          0.80000000000000004,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95770514946237739
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "group_0_15277357_group_0_15277357Mat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "group_0_6383466_group_0_6383466Mat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.049398094415664673,
+        -0.99877917766571045,
+        0,
+        0,
+        0.99877917766571045,
+        0.049398094415664673,
+        0,
+        0,
+        -32.238292694091797,
+        -24.872177124023438,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "8e25a8d3edc04249b4b505a807ccf832.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "name": "Balloon_root"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "group_0_15277357"
+    },
+    {
+      "mesh": 0,
+      "name": "group_0_15277357_group_0_15277357Mat_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "group_0_6383466"
+    },
+    {
+      "mesh": 1,
+      "name": "group_0_6383466_group_0_6383466Mat_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
