@@ -1,0 +1,11 @@
+Model Information:
+* title:	Slime Creature
+* source:	https://sketchfab.com/3d-models/slime-creature-f176c00e63c24155b2c308b06cdb32d8
+* author:	BlaizeJ (https://sketchfab.com/BlaizeJ)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Slime Creature" (https://sketchfab.com/3d-models/slime-creature-f176c00e63c24155b2c308b06cdb32d8) by BlaizeJ (https://sketchfab.com/BlaizeJ) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
