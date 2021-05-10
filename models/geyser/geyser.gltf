@@ -1,0 +1,379 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC3",
+            "max": [
+                0.07372859120368958,
+                0.18593022227287293,
+                0.10807449370622635
+            ],
+            "min": [
+                -0.09995080530643463,
+                9.000000034120603e-8,
+                -0.04779044911265373
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 415524,
+            "type": "SCALAR",
+            "max": [
+                415523.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 2564,
+            "type": "VEC3",
+            "max": [
+                0.40841400623321535,
+                1.0,
+                0.9400240182876587
+            ],
+            "min": [
+                -0.40841400623321535,
+                -1.0,
+                -0.9400240182876587
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 2564,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2564,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 15000,
+            "type": "SCALAR",
+            "max": [
+                2563.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4986288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4986288,
+            "byteLength": 4986288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9972576,
+            "byteLength": 3324192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13296768,
+            "byteLength": 1662096,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 14958864,
+            "byteLength": 30768,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 14989632,
+            "byteLength": 30768,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15020400,
+            "byteLength": 20512,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15040912,
+            "byteLength": 60000,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 15100912,
+            "uri": "geyser_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "material_baseColor",
+            "uri": "geyser_images\\material_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "roughness",
+            "uri": "geyser_images\\roughness.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "material_normal",
+            "uri": "geyser_images\\material_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6583748459815979,
+                    0.9046613574028015,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Water",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Splash",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "defaultMaterial",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -0.07463666051626206,
+                0.13831673562526704,
+                -0.09273574501276016
+            ],
+            "rotation": [
+                0.05084807798266411,
+                0.9232060313224793,
+                0.13127635419368745,
+                -0.3575913608074188
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.04709731042385101,
+                0.04938025027513504,
+                0.036807142198085788
+            ],
+            "rotation": [
+                -0.09714144468307495,
+                0.004007362760603428,
+                -0.09943822771310806,
+                0.9902825355529785
+            ],
+            "scale": [
+                0.5665171146392822,
+                0.5665169358253479,
+                0.5665170550346375
+            ],
+            "mesh": 0,
+            "name": "Splash"
+        },
+        {
+            "children": [
+                3
+            ],
+            "translation": [
+                0.006839954759925604,
+                0.035071488469839099,
+                0.047399718314409259
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -0.7071067690849304,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.08587239682674408,
+                0.08587239682674408,
+                0.08587238937616348
+            ],
+            "name": "scene"
+        },
+        {
+            "children": [
+                4
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "name": "RootNode (gltf orientation matrix)"
+        },
+        {
+            "children": [
+                5
+            ],
+            "name": "RootNode (model correction matrix)"
+        },
+        {
+            "children": [
+                6
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "name": "Collada visual scene group"
+        },
+        {
+            "children": [
+                7
+            ],
+            "name": "Low"
+        },
+        {
+            "mesh": 1,
+            "name": "defaultMaterial"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "tmp_image_pie_a7f0_871b_da63",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "roughness",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "tmp_image_pie_6d4f_e600_2906",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}
